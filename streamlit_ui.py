@@ -1,5 +1,5 @@
 import streamlit as st
-from .pipeline import Pipeline
+from workshop.pipeline import Pipeline
 
 st.sidebar.write("\n\n\n\n\n")
 st.sidebar.subheader("Hello 👋") 
