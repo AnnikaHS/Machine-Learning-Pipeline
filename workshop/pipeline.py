@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
 
-from workshop.config import label_names
+from .config import label_names
 
 class Pipeline:
     def __init__(self):
